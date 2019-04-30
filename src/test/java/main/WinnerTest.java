@@ -26,8 +26,8 @@ TicTacToe m;
 		m.ticbox[0][2] = 1;
 		assertEquals(1,m.win(m.ticbox));
 	}
-	@SuppressWarnings("static-access")
-	@Test
+	//@SuppressWarnings("static-access")
+	//@Test
 	public void player2Testing() {
 		TicTacToe m = new TicTacToe();
 		m.ticbox = new int[3][3];
